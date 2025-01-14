@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Detection</h1>
+        <form action="/" method="POST" enctype="multipart/form-data" class="dropzone" id="uploadForm">
+            <input type="file" name="image" id="fileInput" accept="image/*" required>
+            <label for="fileInput" id="dropLabel">Drag and drop an image here or click this box to insert one from your library.</label>
+            <button type="submit" id="submitButton">Classify</button>
+        </form>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
